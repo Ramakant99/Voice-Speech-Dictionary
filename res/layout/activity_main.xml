@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ 	 
+    tools:context="com.ramakant9.voicedictionary.MainActivity">
+
+ 
+
+    <TextView
+       android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Voice Dictionary"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="40dip"
+        android:background="@color/hint_foreground_material_light"
+        
+         />
+ 
+
+    
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textStyle="bold"
+        android:textSize="25dip"
+        
+        
+        />
+ 
+    
+ 
+    <TextView
+        android:id="@+id/desctxt"
+        android:layout_centerInParent="true"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/text"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:gravity="center_vertical"
+        />
+ 
+
+   
+        
+        
+   <ImageButton
+        android:id="@+id/descbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:src="@drawable/buttonmic"
+      
+        />
+
+
+
+</RelativeLayout>
